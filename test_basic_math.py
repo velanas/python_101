@@ -18,7 +18,9 @@ class TestBasicMath(unittest.TestCase):
 
     def test_division(self):
         self.assertEqual(division(10, 2),5)
-        self.assertEqual(division(10, 0),)
+        self.assertEqual(division(-10, 5),-2)
+        with self.assertRaises(ZeroDivisionError):
+            division(10, 0)
 
     def test_modulo(self):
         self.assertEqual(modulo(10, 3), 1)
