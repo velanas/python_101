@@ -4,6 +4,11 @@ def soustraction(a,b):
     return a-b
 #multiplication
 #division
+ def divide(self, a, b):
+        if b != 0:
+            print(a / b)
+        else:
+            print("Cannot divide by zero")
 #modulo
 def modulo(a,b):
     return a % b
