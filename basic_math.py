@@ -9,10 +9,7 @@ def multiplication(a,b):
     return a*b
 #division
 def division(a, b):
-    if b != 0:
-        print(a / b)
-    else:
-        print("Cannot divide by zero")
+    return a/b
 #modulo
 def modulo(a,b):
     return a % b
