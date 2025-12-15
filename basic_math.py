@@ -1,5 +1,9 @@
 #addition
+def addition(a, b):
+    return a + b
 #soustration
+def soustraction(a,b):
+    return a-b
 #multiplication
 def multiplication(a,b):
     return a*b
