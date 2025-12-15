@@ -2,27 +2,28 @@
 def addition(a, b):
     return a + b
 #soustration
-def soustraction(a,b):
+def soustration(a,b):
     return a-b
 #multiplication
 def multiplication(a,b):
     return a*b
 #division
-def divide(a, b):
-        if b != 0:
-            print(a / b)
-        else:
-            print("Cannot divide by zero")
+def division(a, b):
+    if b != 0:
+        print(a / b)
+    else:
+        print("Cannot divide by zero")
 #modulo
 def modulo(a,b):
     return a % b
 #exponentiation
-def expo(num):
-    from math import exp
-    return exp(num)
+def exponentiation(a,b):
+    return a**b
 #binary
-number = 10
-binary = bin(number)
-
-print(binary)
-#hexadecimal
+def binary(n):
+    binary = ''
+    while n > 0:
+        remainder = n % 2
+        binary = str(remainder) + binary
+        n = n // 2
+    return binary
