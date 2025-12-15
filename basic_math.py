@@ -6,7 +6,7 @@ def soustraction(a,b):
     return a-b
 #multiplication
 #division
- def divide(self, a, b):
+ def divide(a, b):
         if b != 0:
             print(a / b)
         else:
